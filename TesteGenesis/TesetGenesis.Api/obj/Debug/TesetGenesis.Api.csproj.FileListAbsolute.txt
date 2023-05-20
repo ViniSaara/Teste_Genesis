@@ -1,0 +1,6 @@
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesetGenesis.Api\bin\Debug\TesetGenesis.Api.dll
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesetGenesis.Api\bin\Debug\TesetGenesis.Api.pdb
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesetGenesis.Api\obj\Debug\TesetGenesis.Api.csproj.AssemblyReference.cache
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesetGenesis.Api\obj\Debug\TesetGenesis.Api.csproj.CoreCompileInputs.cache
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesetGenesis.Api\obj\Debug\TesetGenesis.Api.dll
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesetGenesis.Api\obj\Debug\TesetGenesis.Api.pdb
