@@ -5,14 +5,22 @@ using System.Net;
 using System.Net.Http;
 using System.Web;
 using System.Web.Mvc;
+using TesteGenesis.Api.Models;
+using TesteGenesis.Api.Servicos;
 
 namespace TesteGenesis.Api.Controllers
 {
     public class CdbController : System.Web.Http.ApiController
     {
-        public HttpResponseMessage CanclularCdb(int meses, decimal valor)
+        public HttpResponseMessage CanclularCdb(int meses, decimal valorInicial)
         {
-            return Request.CreateResponse<decimal>(HttpStatusCode.OK, 0m);
+            Calculos calculos = new Calculos();
+            var resultado = calculos.CalcularCdb(meses, valorInicial);
+
+            if (string.IsNullOrEmpty(resultado.Mensagem))
+                return Request.CreateResponse<RendimentosCdb>(HttpStatusCode.OK, resultado);
+            else
+                return Request.CreateResponse<string>(HttpStatusCode.BadRequest, resultado.Mensagem);
         }
     }
 }
