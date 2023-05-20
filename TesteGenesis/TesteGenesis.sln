@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteGenesis", "TesteGenesis\TesteGenesis.csproj", "{440CBB77-8C63-400E-B8AF-92004828A3EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesetGenesis.Api", "TesetGenesis.Api\TesetGenesis.Api.csproj", "{ADE95AEB-E8C5-4ACB-9D88-1919B039A1CE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteGenesis.Api", "TesteGenesis.Api\TesteGenesis.Api.csproj", "{98F1D261-A782-40B3-BEF2-8A6DFE96FF4A}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{440CBB77-8C63-400E-B8AF-92004828A3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{440CBB77-8C63-400E-B8AF-92004828A3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{440CBB77-8C63-400E-B8AF-92004828A3EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ADE95AEB-E8C5-4ACB-9D88-1919B039A1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADE95AEB-E8C5-4ACB-9D88-1919B039A1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADE95AEB-E8C5-4ACB-9D88-1919B039A1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADE95AEB-E8C5-4ACB-9D88-1919B039A1CE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{98F1D261-A782-40B3-BEF2-8A6DFE96FF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{98F1D261-A782-40B3-BEF2-8A6DFE96FF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98F1D261-A782-40B3-BEF2-8A6DFE96FF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
