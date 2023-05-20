@@ -15,12 +15,18 @@ namespace TesteGenesis.Api.Controllers
         public HttpResponseMessage CanclularCdb(int meses, decimal valorInicial)
         {
             Calculos calculos = new Calculos();
-            var resultado = calculos.CalcularCdb(meses, valorInicial);
+            
+            try
+            {
+                var resultado = calculos.CalcularCdb(meses, valorInicial);
 
-            if (string.IsNullOrEmpty(resultado.Mensagem))
                 return Request.CreateResponse<RendimentosCdb>(HttpStatusCode.OK, resultado);
-            else
-                return Request.CreateResponse<string>(HttpStatusCode.BadRequest, resultado.Mensagem);
+                    
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse<string>(HttpStatusCode.BadRequest, ex.Message);
+            }
         }
     }
 }

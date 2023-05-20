@@ -16,7 +16,7 @@ namespace TesteGenesis.Api.Servicos
         {
             string msgValidacao = ValidarDados(meses, valorInicial);
             if (!string.IsNullOrEmpty(msgValidacao))
-                return new RendimentosCdb() { Mensagem = msgValidacao };
+                throw new Exception(msgValidacao);
 
             decimal valorLiquido = 0m;
             decimal valorFinal = valorInicial;
@@ -26,7 +26,7 @@ namespace TesteGenesis.Api.Servicos
 
             valorLiquido = valorFinal - valorInicial;
 
-            return new RendimentosCdb() { ValorBruto = valorFinal, ValorLiquido = valorLiquido, Mensagem = "" };
+            return new RendimentosCdb() { ValorBruto = valorFinal, ValorLiquido = valorLiquido };
         }
 
         private string ValidarDados(int meses, decimal valorInicial)
