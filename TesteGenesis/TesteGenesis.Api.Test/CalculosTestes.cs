@@ -1,7 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Net.Http;
-using TesteGenesis.Api.Controllers;
 using TesteGenesis.Api.Servicos;
 
 namespace TesteGenesis.Api.Test

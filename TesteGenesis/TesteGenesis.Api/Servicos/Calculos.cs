@@ -40,7 +40,7 @@ namespace TesteGenesis.Api.Servicos
             return new RendimentosCdb() { ValorBruto = valorBruto, ValorLiquido = valorLiquido };
         }
 
-        private decimal CalcularImpostoSobreValorRendido(int meses, decimal valorTotalRendimento)
+        private  decimal CalcularImpostoSobreValorRendido(int meses, decimal valorTotalRendimento)
         {
             decimal valorImpostoASerCobrado = 0m;
 
