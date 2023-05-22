@@ -12,7 +12,7 @@ namespace TesteGenesis.Api.Controllers
 {
     public class CdbController : System.Web.Http.ApiController
     {
-        public HttpResponseMessage CanclularCdb(int meses, decimal valorInicial)
+        public HttpResponseMessage CalcularCdb(int meses, decimal valorInicial)
         {
             Calculos calculos = new Calculos();
             
