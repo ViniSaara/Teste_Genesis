@@ -20,7 +20,7 @@ namespace TesteGenesis.Api.Servicos
         {
             string msgValidacao = ValidarDados(meses, valorInicial);
             if (!string.IsNullOrEmpty(msgValidacao))
-                throw new Exception(msgValidacao);
+                return new RendimentosCdb() { Mensagem = msgValidacao};
 
             decimal valorLiquido = 0m, valorRendimentoComImposto = 0m, valorImpostoASerCobrado = 0m;
             decimal valorBruto = valorInicial;
@@ -62,7 +62,7 @@ namespace TesteGenesis.Api.Servicos
                 return "A quantidade de meses deve ser maior que 1";
 
             if (valorInicial <= 0)
-                return "O valor deve ser positivo";
+                return "O valor inicial deve ser positivo";
 
             return "";
         }
