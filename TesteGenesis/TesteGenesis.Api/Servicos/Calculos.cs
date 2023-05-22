@@ -9,8 +9,12 @@ namespace TesteGenesis.Api.Servicos
 {
     public class Calculos
     {
-        private const decimal tb = 1.08m;
-        private const decimal cdi = 0.009m;
+        private const decimal TB = 1.08m;
+        private const decimal CDI = 0.009m;
+        private const decimal PERCENTUAL_IMPOSTO_MENOS_6_MESES = 0.225m;
+        private const decimal PERCENTUAL_IMPOSTO_ENTRE_7_E_12_MESES = 0.20m;
+        private const decimal PERCENTUAL_IMPOSTO_ENTRE_13_E_24_MESES = 0.175m;
+        private const decimal PERCENTUAL_IMPOSTO_ACIMA_24_MESES = 0.15m;
 
         public RendimentosCdb CalcularCdb(int meses, decimal valorInicial)
         {
@@ -18,15 +22,38 @@ namespace TesteGenesis.Api.Servicos
             if (!string.IsNullOrEmpty(msgValidacao))
                 throw new Exception(msgValidacao);
 
-            decimal valorLiquido = 0m;
-            decimal valorFinal = valorInicial;
+            decimal valorLiquido = 0m, valorRendimentoComImposto = 0m, valorImpostoASerCobrado = 0m;
+            decimal valorBruto = valorInicial;
 
             for (int i = 0; i < meses; i++)
-                valorFinal = Math.Round(valorFinal * (1 + (cdi * tb)), 2);
+                valorBruto = valorBruto * (1 + (CDI * TB));
 
-            valorLiquido = valorFinal - valorInicial;
+            valorRendimentoComImposto = valorBruto - valorInicial;
 
-            return new RendimentosCdb() { ValorBruto = valorFinal, ValorLiquido = valorLiquido };
+            valorImpostoASerCobrado = CalcularImpostoSobreValorRendido(meses, valorRendimentoComImposto);
+
+            valorLiquido = valorBruto - valorImpostoASerCobrado;
+
+            valorBruto = Math.Round(valorBruto, 2);
+            valorLiquido = Math.Round(valorLiquido, 2);
+
+            return new RendimentosCdb() { ValorBruto = valorBruto, ValorLiquido = valorLiquido };
+        }
+
+        private decimal CalcularImpostoSobreValorRendido(int meses, decimal valorTotalRendimento)
+        {
+            decimal valorImpostoASerCobrado = 0m;
+
+            if (meses <= 6)
+                valorImpostoASerCobrado = valorTotalRendimento * PERCENTUAL_IMPOSTO_MENOS_6_MESES;
+            else if (meses <= 12)
+                valorImpostoASerCobrado = valorTotalRendimento * PERCENTUAL_IMPOSTO_ENTRE_7_E_12_MESES;
+            else if (meses <= 24)
+                valorImpostoASerCobrado = valorTotalRendimento * PERCENTUAL_IMPOSTO_ENTRE_13_E_24_MESES;
+            else
+                valorImpostoASerCobrado = valorTotalRendimento * PERCENTUAL_IMPOSTO_ACIMA_24_MESES;
+
+            return valorImpostoASerCobrado;
         }
 
         private string ValidarDados(int meses, decimal valorInicial)
