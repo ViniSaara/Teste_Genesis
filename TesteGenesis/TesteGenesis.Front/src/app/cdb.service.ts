@@ -11,7 +11,6 @@ var httpOptions = {headers: new HttpHeaders({"Content-Type": "application/json"}
 })
 export class CdbService {
 
-  //url = 'https://localhost:44328/api/cdb';
   url = 'https://localhost:44399/api/cdb';
 
   constructor(private http: HttpClient) { }

@@ -10,12 +10,6 @@ import { CdbService } from '../cdb.service';
 
 export class TelaCdbComponent {
 
-// constructor(private _cdbService: CdbService){
-//   _cdbService.calcularCdb().subscribe(data => {
-//     console.log(data);
-//   })
-// }
-
 constructor(private cdbService:CdbService) { }
 
 
