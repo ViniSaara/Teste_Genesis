@@ -4,12 +4,15 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web;
+using System.Web.Http.Cors;
 using System.Web.Mvc;
 using TesteGenesis.Api.Models;
 using TesteGenesis.Api.Servicos;
 
 namespace TesteGenesis.Api.Controllers
 {
+    [EnableCors(origins: "http://localhost:4200", headers: "*", methods: "*")]
+
     public class CdbController : System.Web.Http.ApiController
     {
         [HttpGet]

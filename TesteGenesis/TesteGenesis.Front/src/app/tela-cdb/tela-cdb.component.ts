@@ -20,20 +20,19 @@ constructor(private cdbService:CdbService) { }
 
 
   cdb: CdbModel = new CdbModel();
-  //cdbService: CdbService = new CdbService();
 
   calcularCdb(event: Event){
     debugger;
-    alert('Antes da chamada');
     this.cdbService.calcularCdb(this.cdb.meses, this.cdb.valorInicial).subscribe(data => {
-      //console.log(data);
-      alert('resultado: ' + data);
+      if (data.mensagem != null && data.mensagem != ''){
+        this.cdb.mensagem = data.mensagem;
+      }
+      else {
+        this.cdb.valorLiquido = data.valorLiquido;
+        this.cdb.valorBruto = data.valorBruto;
+        this.cdb.mensagem = '';
+      }
+      console.log('resultado: ' + data);
     });
-    alert('Depois da chamada');
-
-    // console.log('Evento: ', event);
-    // console.log('CDB : ', this.cdb);
-    // this.cdb.valorBruto = 1;
-    // this.cdb.valorLiquido = 1;
   }
 }

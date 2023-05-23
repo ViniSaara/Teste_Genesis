@@ -3,5 +3,5 @@ export class CdbModel {
     valorInicial: number;
     valorBruto: number;
     valorLiquido: number;
-    mensagemErro: string;
+    mensagem: string;
 }

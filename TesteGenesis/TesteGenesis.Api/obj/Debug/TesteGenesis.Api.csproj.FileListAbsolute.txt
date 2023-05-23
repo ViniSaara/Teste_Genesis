@@ -85,3 +85,6 @@ C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api\obj\Debug\TesteGenesis.Api.csproj.CopyComplete
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api\obj\Debug\TesteGenesis.Api.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api\obj\Debug\TesteGenesis.Api.pdb
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api\bin\System.Web.Cors.dll
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api\bin\System.Web.Http.Cors.dll
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api\bin\System.Web.Http.Cors.xml

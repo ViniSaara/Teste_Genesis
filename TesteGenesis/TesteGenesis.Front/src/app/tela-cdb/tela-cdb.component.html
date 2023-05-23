@@ -15,16 +15,13 @@
 </p>
 
 <p>
-    <label *ngIf="(cdb.mensagemErro == null || cdb.mensagemErro == '') && cdb.valorBruto > 0">Valor Bruto: {{ cdb.valorBruto }}</label>
+    <label *ngIf="(cdb.mensagem == null || cdb.mensagem == '') && cdb.valorBruto > 0">Valor Bruto: {{ cdb.valorBruto }}</label>
 </p>
 
 <p>
-    <label *ngIf="(cdb.mensagemErro == null || cdb.mensagemErro == '') && cdb.valorLiquido > 0">Valor Líquido: {{ cdb.valorLiquido }}</label>
+    <label *ngIf="(cdb.mensagem == null || cdb.mensagem == '') && cdb.valorLiquido > 0">Valor Líquido: {{ cdb.valorLiquido }}</label>
 </p>
 
 <p>
-    <label *ngIf="cdb.mensagemErro != null && cdb.mensagemErro != ''">Mensagem de Erro: {{ cdb.mensagemErro }}</label>
-</p>
-
-<p>
+    <label *ngIf="cdb.mensagem != null && cdb.mensagem != ''">Mensagem de Erro: {{ cdb.mensagem }}</label>
 </p>
