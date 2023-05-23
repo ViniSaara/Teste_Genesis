@@ -1,1 +1,30 @@
-<p>tela-cdb works!</p>
+<h3>
+    Informe os valores
+</h3>
+
+<p>
+    <label>Quantidade de Meses: </label> <input type="text" name="meses" [(ngModel)]="cdb.meses">
+</p>
+
+<p>
+    <label>Valor Inicial: </label> <input type="text" name="valorInicial" [(ngModel)]="cdb.valorInicial">
+</p>
+
+<p>
+    <button type="button" (click)="calcularCdb($event)">Calcular CDB</button>
+</p>
+
+<p>
+    <label *ngIf="(cdb.mensagemErro == null || cdb.mensagemErro == '') && cdb.valorBruto > 0">Valor Bruto: {{ cdb.valorBruto }}</label>
+</p>
+
+<p>
+    <label *ngIf="(cdb.mensagemErro == null || cdb.mensagemErro == '') && cdb.valorLiquido > 0">Valor Líquido: {{ cdb.valorLiquido }}</label>
+</p>
+
+<p>
+    <label *ngIf="cdb.mensagemErro != null && cdb.mensagemErro != ''">Mensagem de Erro: {{ cdb.mensagemErro }}</label>
+</p>
+
+<p>
+</p>

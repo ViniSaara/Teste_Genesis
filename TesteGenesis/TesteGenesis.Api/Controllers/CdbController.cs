@@ -12,6 +12,7 @@ namespace TesteGenesis.Api.Controllers
 {
     public class CdbController : System.Web.Http.ApiController
     {
+        [HttpGet]
         public HttpResponseMessage CalcularCdb(int meses, decimal valorInicial)
         {
             Calculos calculos = new Calculos();
