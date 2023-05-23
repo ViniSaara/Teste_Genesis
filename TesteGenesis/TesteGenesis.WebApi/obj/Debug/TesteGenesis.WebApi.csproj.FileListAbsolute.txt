@@ -83,7 +83,6 @@ C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.WebPages.Razor.xml
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\Antlr3.Runtime.pdb
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\obj\Debug\TesteGenesis.WebApi.csproj.AssemblyReference.cache
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\obj\Debug\TesteGenesis.WebApi.csproj.CoreCompileInputs.cache
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\obj\Debug\TesteGenesis.WebApi.csproj.CopyComplete
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\obj\Debug\TesteGenesis.WebApi.dll
