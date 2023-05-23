@@ -12,7 +12,7 @@ using TesteGenesis.Api.Servicos;
 namespace TesteGenesis.Api.Controllers
 {
     [EnableCors(origins: "http://localhost:4200", headers: "*", methods: "*")]
-
+    [Route("api/[Controller]")]
     public class CdbController : System.Web.Http.ApiController
     {
         [HttpGet]
