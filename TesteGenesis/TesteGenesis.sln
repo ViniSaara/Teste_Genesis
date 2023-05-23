@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteGenesis.Api", "TesteGenesis.Api\TesteGenesis.Api.csproj", "{98F1D261-A782-40B3-BEF2-8A6DFE96FF4A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteGenesis.Api.Test", "TesteGenesis.Api.Test\TesteGenesis.Api.Test.csproj", "{3ABD284F-47A8-43AF-87B5-6561AF853125}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CBFF8028-BE92-470B-A340-FC0F29614993}"
@@ -20,10 +18,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{98F1D261-A782-40B3-BEF2-8A6DFE96FF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{98F1D261-A782-40B3-BEF2-8A6DFE96FF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{98F1D261-A782-40B3-BEF2-8A6DFE96FF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{98F1D261-A782-40B3-BEF2-8A6DFE96FF4A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3ABD284F-47A8-43AF-87B5-6561AF853125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3ABD284F-47A8-43AF-87B5-6561AF853125}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ABD284F-47A8-43AF-87B5-6561AF853125}.Release|Any CPU.ActiveCfg = Release|Any CPU
