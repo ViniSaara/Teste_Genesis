@@ -15,3 +15,8 @@
 	http://localhost:4200/
 
 7- Não consegui fazer o front comunicar com a webapi. Acho que foi algum problema de CORS que não deu tempo de resolver.
+
+8- Adicionei alguns arquivos de prints de testes feitos pelo swagger. Segue nomes dos arquivos
+	- Print_0_Meses.png
+	- Print_5_meses_valor_inical_1000.png
+	- Print_valor_inicial_0.png
