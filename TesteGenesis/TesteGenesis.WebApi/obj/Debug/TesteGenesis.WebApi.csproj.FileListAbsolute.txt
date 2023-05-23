@@ -54,8 +54,11 @@ C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\Newtonsoft.Json.dll
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\Swashbuckle.Core.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.Cors.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.Helpers.dll
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.Http.Cors.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.Http.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.Http.WebHost.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.Mvc.dll
@@ -64,9 +67,11 @@ C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.WebPages.Deployment.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.WebPages.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\WebActivatorEx.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\WebGrease.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Net.Http.Formatting.xml
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.Http.xml
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.Http.Cors.xml
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\Newtonsoft.Json.xml
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.Helpers.xml
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.Http.WebHost.xml
@@ -83,8 +88,3 @@ C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\obj\Debug\TesteGenesis.WebApi.csproj.CopyComplete
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\obj\Debug\TesteGenesis.WebApi.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\obj\Debug\TesteGenesis.WebApi.pdb
-C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\Swashbuckle.Core.dll
-C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\WebActivatorEx.dll
-C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.Cors.dll
-C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.Http.Cors.dll
-C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.WebApi\bin\System.Web.Http.Cors.xml

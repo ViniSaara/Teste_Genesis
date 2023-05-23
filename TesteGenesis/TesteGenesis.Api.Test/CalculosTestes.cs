@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TesteGenesis.Api.Servicos;
+using TesteGenesis.WebApi.Servicos;
 
 namespace TesteGenesis.Api.Test
 {

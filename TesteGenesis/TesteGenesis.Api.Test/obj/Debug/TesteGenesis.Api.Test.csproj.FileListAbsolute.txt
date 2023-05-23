@@ -9,7 +9,7 @@ C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\System.Net.Http.Formatting.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\System.Web.Http.dll
-C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\TesteGenesis.Api.dll
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\TesteGenesis.WebApi.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\WebActivatorEx.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\System.Web.Optimization.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\System.Web.Mvc.dll
@@ -24,8 +24,8 @@ C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\System.Web.Cors.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\Antlr3.Runtime.dll
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\System.Web.WebPages.Deployment.dll
-C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\TesteGenesis.Api.pdb
-C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\TesteGenesis.Api.dll.config
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\TesteGenesis.WebApi.pdb
+C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\TesteGenesis.WebApi.dll.config
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\Vini\Desktop\ENTREVISTAS\Genesis\TesteTecnico\TesteGenesis\TesteGenesis.Api.Test\bin\Debug\Newtonsoft.Json.pdb
